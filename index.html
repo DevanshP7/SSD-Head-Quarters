@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+
+    <html>
+        
+        <title>Face Recognizer</title>
+        <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1461/1461141.png">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+
+    </html>
+
+    <body>
+
+        <div class="container">
+
+            <center>
+            
+                <h1 id="header">Face Recognizer</h1>
+                <br>
+                <h3 id="notice">This model is trained to identify the following people:</h3>
+
+                <br>
+                <br>
+            
+                <h5>Devansh (Me)</h5>
+                <br><br>
+                <h5>Shivansh</h5>
+                <br><br>
+                <h5>Suryansh</h5>
+
+                <hr><br>
+
+                <h3 id="label">Webcam View :-</h3>
+                <br>
+                <div id="camera"></div>
+
+                <hr><br>
+
+                <h3 id="label">Result :-</h3>
+                <br>
+                <div id="result"></div>
+                <br>
+                <hr>
+                <br>
+                <button type="button" id="capture_image" onclick="capture_image()">Capture Image</button><br>
+                <br><br>
+                <button type="button" id="identify_image" onclick="identify_image()">Identify Image</button><br>
+
+                <br><br>
+
+                <h3 id="face_output">Member: <span id="person"></span></h3>
+                <h3 id="accuracy_output">Accuracy: <span id="accuracy"></span></h3>
+
+            </center>
+
+        </div>
+
+    </body>
+
+<script src="main.js"></script>
+
+</html>

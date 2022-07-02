@@ -1,0 +1,102 @@
+html, body{
+
+    background-image: linear-gradient(rgb(161, 217, 255), rgb(119, 178, 255), rgb(161, 217, 255));
+
+}
+
+#header{
+
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 70px;
+
+}
+
+#notice{
+
+    font-family: 'Great Vibes', serif;
+    word-spacing: 20px;
+    font-size: 40px;
+    color: rgb(105, 35, 235);
+
+}
+
+h5{
+
+    font-family: cursive;
+    font-size: 20px;
+    background-image: linear-gradient(to right, rgb(17, 180, 66), rgb(98, 214, 83), rgb(17, 180, 66));
+    padding: 10px;
+    border-radius: 5px;
+    width: 160px;
+    transition: width 1s;
+
+}
+
+h5:hover{
+
+    width:100%;
+
+}
+
+#label{
+
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+
+}
+
+#capture_image{
+
+    background-image: linear-gradient(to right,rgb(255, 255, 208), rgb(255, 255, 0));
+    font-family: 'MonteCarlo', cursive;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 40px;
+    border-style: none;
+    text-shadow: 2px 2px 4px #524e4e;
+    transition: transform 0.6s, box-shadow 0.6s;
+
+}
+
+#capture_image:hover{
+
+    transform: scale(1.5);
+    box-shadow: 5px 5px 10px gray;
+
+}
+
+#face_output, #accuracy_output{
+
+    font-family: 'Tangerine', cursive;
+    font-size: 50px;
+
+}
+
+#identify_image{
+
+    background-image: linear-gradient(to right,rgb(214, 255, 208), rgb(21, 255, 0));
+    font-family: 'MonteCarlo', cursive;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 40px;
+    border-style: none;
+    text-shadow: 2px 2px 4px #524e4e;
+    transition: transform 0.6s, box-shadow 0.6s;
+
+}
+
+#identify_image:hover{
+
+    transform: scale(1.5);
+    box-shadow: 5px 5px 10px gray;
+
+}
+
+#captured_image{
+
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(105, 105, 105);
+    height: fit-content;
+    width: fit-content;
+
+}
